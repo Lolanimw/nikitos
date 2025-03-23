@@ -1,0 +1,179 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgba(244, 209, 12, 0.615);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+nav a:first-child {
+    color: white;
+}
+
+.hero {
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.hero-text p {
+    max-width: 70%;
+}
+
+.button a {
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: 1px solid rgba(244, 209, 12, 0.615);
+    box-shadow: 2px 2px 8px 0 black;
+    
+}
+
+.button a:first-child {
+    background-color: rgba(244, 209, 12, 0.615);
+    color: black;
+    
+}
+
+.button a:last-child {
+    color: rgba(244, 209, 12, 0.615)
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    color: rgba(244, 209, 12, 0.615)
+}
+
+.product {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+.text_block {
+    width: 50%;
+    
+    
+}
+
+.text_block a {
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: 1px solid rgba(244, 209, 12, 0.615);
+    box-shadow: 2px 2px 8px 0 black;
+    background-color: rgba(244, 209, 12, 0.615);
+    color: white;
+    
+}
+.menu {
+    width: 80%;
+    margin: 50px auto;
+}
+
+
+.circle {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 10px solid orange;
+    background-color: orange;
+}
+
+
+.circle  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.container {
+    justify-content: space-around;
+    display: flex;
+}
+
+.container p {
+    color: white;
+}
+
+.container h2 {
+    color: white;
+}
+
+.document {
+    position: relative;
+}
+
+.document p {
+    position: absolute;
+    bottom: 100px;
+    color: white;
+    width: 50%;
+}
+
+.lolo {
+    
+}
+
+footer {
+    background-color: rgba(244, 209, 12, 0.615);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button a:hover:first-child {
+    background-color: black;
+    color: white;
+}
+
+.button a:hover:last-child {
+    background-color: black;
+    color: yellow;
+}
+
+nav a:hover {
+    background-color: rgb(81, 192, 109);
+}
+
+.text_block a:focus {
+    background-color: aliceblue;
+    padding: 10px;
+    color: black;
+}
+
+.lolo:hover {
+    opacity: 1;
+    border: 6px solid navy;
+    width: 170px;
+    height: 220px;
+    padding: 5px;
+    transition: 0.5s ease-out;
+}
